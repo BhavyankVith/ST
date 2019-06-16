@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context="com.example.bk.st.Contact">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave a Message"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        >
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:paddingLeft="15dp"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textColor="#a59999"
+            android:textColorHint="#b4b8bc"
+            android:inputType="text"
+            android:maxLength="18"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/faculty_edit_bg"
+            />
+
+        <EditText
+            android:id="@+id/cmob"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Mobile no"
+            android:paddingLeft="15dp"
+            android:textIsSelectable="false"
+            android:textSize="17sp"
+            android:textColor="#a59999"
+            android:textColorHint="#b4b8bc"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/faculty_edit_bg"
+            />
+
+
+        <EditText
+            android:id="@+id/cmail"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Email-id"
+            android:paddingLeft="15dp"
+            android:textIsSelectable="false"
+            android:textSize="17sp"
+            android:textColor="#a59999"
+            android:textColorHint="#b4b8bc"
+            android:inputType="textWebEmailAddress"
+            android:maxLength="30"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/faculty_edit_bg"
+            />
+
+        <EditText
+            android:id="@+id/cmsg"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Message"
+            android:paddingLeft="15dp"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textColor="#a59999"
+            android:textColorHint="#b4b8bc"
+            android:inputType="text"
+            android:maxLength="18"
+            android:layout_marginTop="240dp"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/faculty_edit_bg"
+            />
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="270dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="17sp"-->
+            <!--android:layout_marginTop="350dp"-->
+            <!--android:background="@drawable/facu_reg_btn"-->
+            <!---->
+            <!--/>-->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/send"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="350dp"
+            app:cardBackgroundColor="#00a1ff"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/baseline_send_white_18dp"
+                />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

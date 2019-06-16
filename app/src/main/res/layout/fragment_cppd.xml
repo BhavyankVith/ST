@@ -1,0 +1,261 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.bk.st.CPPD">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Continuing Personal Professional Development"-->
+    <!--android:textColor="#0b0b0b"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:fontFamily="sans-serif"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--/>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="65dp"-->
+    <!--android:elevation="10dp"-->
+        <!--android:id="@+id/relativeLayout">-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="18sp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="-12dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+          <!--android:layout_marginTop="-12dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;"-->
+            <!--/>-->
+
+        <!---->
+        <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fontFamily="sans-serif"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textColor="#000"-->
+    <!--android:layout_marginLeft="100dp"-->
+    <!--android:text="TEACHER TRAINING"-->
+    <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;"-->
+            <!--/>-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--android:elevation="10dp"-->
+
+    <!--&gt;-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fontFamily="sans-serif"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textColor="#000"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text=">> Highly skilled teachers are one of the singlemost important influences on students success.-->
+
+   <!--&gt;> Class size and other factors characterizing education do not impact students learning trajectories as much as the quality of their teachers.-->
+
+   <!--&gt;> Teachers facilitate the process whereby students cultivate habits of mind and knowledge, schemes that are prerequisites for success, meaningful contributions and prosperity in an open, technological world.-->
+
+    <!--This makes effective teacher training of paramount importance in the cultivation of an educated citizenry within the country."-->
+    <!--/>-->
+
+
+
+
+<!--</RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/web_card_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEACHER TRAINING"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:gravity="fill|end"
+                android:text=">>  Highly skilled teachers are one of the singlemost important influences on students success."
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal|start"
+                    android:text=">> Teachers facilitate the process whereby students cultivate habits of mind and knowledge, schemes that are prerequisites for success, meaningful contributions and prosperity in an open, technological world."
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="135dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal|start"
+                    android:text=">> This makes effective teacher training of paramount importance in the cultivation of an educated citizenry within the country."
+                    />
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="165dp"-->
+
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:fontFamily="sans-serif"-->
+                    <!--android:gravity="center_horizontal|start"-->
+                    <!--android:text=">>   We use the power of open source technologies like PHP, Java or Asp.Net to develop web application that meets the business requirements of clients."-->
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/mobile_card_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEACHER APPRAISAL"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:gravity="fill|end"
+                android:text=">>Imparting teacher training is directly related to raising teaching performance and ensuring that teachers perform at their best which in turn is related to enhanced student learning.
+
+» Imparting training in piece-meals will not serve the purpose if not supplemented with continuous evaluation of teachers followed by feedback.
+
+» From the perspective to maintain and raise educational standards, effective monitoring and evaluation of teaching thus becomes imperative.
+
+» Evaluation of teachers can have two specific purposes/functions :-
+
+    Improvement function and
+    Accountability function
+"
+                />
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="120dp"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:fontFamily="sans-serif"-->
+                    <!--android:gravity="fill|end"-->
+                    <!--android:text=">> We at Sannibh Technologies understand this and work in synchrony with the clients to develop mobile applications for android, iPhone and Cross Platform Mobile Application development"-->
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

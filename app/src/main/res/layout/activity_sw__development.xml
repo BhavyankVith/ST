@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.bk.st.SW_Development">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/web_card_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website Development"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="fill|end"
+                    android:text=">> If there is a business, it has to have a website."
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    >
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal|start"
+                        android:text=">> As internet access becomes more ubiquitous and
+    the workforce gets more global, web-based
+      applications are becoming the standard."
+                        />
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="95dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal|start"
+                        android:text=">>  Sannibh Technologies works with the clients to build dynamic and robust web applications for their business."
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="165dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal|start"
+                        android:text=">>   We use the power of open source technologies like PHP, Java or Asp.Net to develop web application that meets the business requirements of clients."
+                        />
+                </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/mobile_card_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Development"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:gravity="fill|end"
+                android:text=">> With the increasing number of people accessing wide array of services and facilities through mobile devices, it is becoming imperative for organizations and individuals to turn to mobile applications that enable products, services and brands to be distributed to customers with ease."
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="fill|end"
+                    android:text=">> We at Sannibh Technologies understand this and work in synchrony with the clients to develop mobile applications for android, iPhone and Cross Platform Mobile Application development"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
